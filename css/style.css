@@ -1,0 +1,74 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: rgb(177, 85, 57);
+  float: left;
+  height: 100vh;
+  width: 20vmax;
+}
+
+.menu {
+  padding-top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil {
+  border-style: solid;
+  border-color: rgb(214, 130, 105);
+  border-width: 5px;
+  border-radius: 50%;
+  width: 40%;
+}
+
+a {
+  padding-top: 5%;
+  text-decoration: none;
+  color: white;
+  line-height: 2;
+  font-weight: 500;
+}
+
+main {
+  padding-top: 8%;
+  margin-left: 25%;
+  color: #666;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+span {
+  color: rgb(177, 85, 57);
+  font-weight: bold;
+}
+
+p {
+  padding: 10px 0px 30px 0px;
+  font-size: 18px;
+}
+
+.icons {
+  color: #666;
+  font-size: 30px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.sobre {
+  margin: 30px;
+  line-height: 2;
+  font-size: 18px;
+}
